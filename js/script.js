@@ -1,5 +1,6 @@
 function removeClass() {
   $('body').removeClass();
+  $('p').removeClass();
 }
 
 $('a#green').click(function() {
@@ -19,4 +20,8 @@ $('a#red').click(function() {
 
 $('a#default').click(function() {
   removeClass();
+});
+
+$('p:first-of-type').click(function() {
+  $(this).toggleClass('highlight');
 });
