@@ -7,6 +7,28 @@ body {
   margin: 0;
 }
 
+.green-background {
+  background-color: #4caf50;
+}
+
+.yellow-background {
+  background-color: #ffeb3b;
+}
+
+.red-background {
+  background-color: #f44336;
+}
+
+.highlight {
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.flex-container {
+  margin: 10px 0;
+}
 
 @media screen and (max-width: 400px) {
   .flex-container {
