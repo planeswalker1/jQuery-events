@@ -6,3 +6,15 @@ body {
   line-height: 1.65;
   margin: 0;
 }
+
+.night-mode {
+  background-color: #1d1f20;
+  /*background-color: #040018;*/
+  color: white;
+  /*color: #c5b2cc;;*/
+}
+
+.day-mode {
+  background: black;
+  color: white;
+}
